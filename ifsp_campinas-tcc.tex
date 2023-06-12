@@ -19,17 +19,17 @@
     	        oneside,                   % Impressão apenas frente
 ]{configuracoes/ifsp_campinas-abntex2}
 
-\include{configuracoes/variaveis-config.tex}
+\input{configuracoes/variaveis-config.tex}
 
 % INCLUI ARQUIVOS DE CONFIGURAÇÕES-------------------------------------------------------------------------------
-\include{configuracoes/pacotes}
-\include{configuracoes/configuracoes-pdf}
+\input{configuracoes/pacotes}
+\input{configuracoes/configuracoes-pdf}
 
 % INCLUI ARQUIVOS DO TRABALHO DE CONCLUSÃO DE CURSO (PRÉ-TEXTUAIS, TEXTUAIS, PÓS-TEXTUAIS)-----------------------
 
 % INSERE CAPA E FOLHA DE ROSTO
-\include{estrutura/pre-textuais/capa}
-\include{estrutura/pre-textuais/folha-rosto}
+\input{estrutura/pre-textuais/capa}
+\input{estrutura/pre-textuais/folha-rosto}
 
 \begin{document}
 
@@ -41,7 +41,7 @@
 %\include{estrutura/pre-textuais/dedicatoria}          						% Dedicatória
 %\include{estrutura/pre-textuais/agradecimentos}        				    % Agradecimentos
 %\include{estrutura/pre-textuais/epigrafe}              			  		% Epígrafe
-\include{estrutura/pre-textuais/resumo}             			   			% Resumo em Português
+% \include{estrutura/pre-textuais/resumo}             			   			% Resumo em Português
 %\include{estrutura/pre-textuais/abstract}             		           		% Resumo em Inglês
 %\include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-figuras}   % Lista de Figuras
 %\include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros}   % Lista de Quadros
@@ -53,11 +53,11 @@
 
 \textual
 % INSERE ELEMENTOS TEXTUAIS
-\include{estrutura/textuais/1_introducao/root.tex}               			% Introdução
+% \include{estrutura/textuais/1_introducao/root.tex}               			% Introdução
 \include{estrutura/textuais/2_objetivos/root.tex}        					% Objetivos
-\include{estrutura/textuais/3_fundamentacao/root.tex}            	    	% Fundamentação Teórica
-\include{estrutura/textuais/4_metodologia/root.tex}              	     	% Metodologia
-\include{estrutura/textuais/5_cronograma/root.tex}	              	     	% Cronograma
+% \include{estrutura/textuais/3_fundamentacao/root.tex}            	    	% Fundamentação Teórica
+% \include{estrutura/textuais/4_metodologia/root.tex}              	     	% Metodologia
+% \include{estrutura/textuais/5_cronograma/root.tex}	              	     	% Cronograma
 
 \postextual
 % INSERE ELEMENTOS PÓS-TEXTUAIS
