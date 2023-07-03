@@ -1,0 +1,14 @@
+jupyterlab
+pandas
+nltk
+spacy
+gensim
+scikit-learn
+tensorflow
+keras
+torch
+torchvision
+transformers
+feather-format
+textblob
+sklearn
